@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  REGISTRY: app-knight/CI-CD-workshop
+  REGISTRY: app-knight/ci-cd-workshop
 
 jobs:
   lint:
