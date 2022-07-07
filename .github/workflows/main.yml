@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  REGISTRY:  app-knight/CI-CD-workshop
+  REGISTRY: app-knight/CI-CD-workshop
 
 jobs:
   lint:
@@ -51,4 +51,4 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.REGISTRY }}: ${{ steps.commit_hash.outputs.commit_hash }}
+            ${{ env.REGISTRY }}:${{ steps.commit_hash.outputs.commit_hash }}
