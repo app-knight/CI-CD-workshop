@@ -51,4 +51,4 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.Registry }}:${{ steps.commit_hash.outputs.commit_hash }}
+            ${{ env.REGISTRY }}: ${{ steps.commit_hash.outputs.commit_hash }}
