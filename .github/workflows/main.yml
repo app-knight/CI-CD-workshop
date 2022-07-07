@@ -1,0 +1,11 @@
+name: CI-CD-Workshop
+
+on:
+  push:
+    branches:
+      - master
+
+
+env:
+
+jobs:
